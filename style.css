@@ -1,0 +1,32 @@
+body {
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 150px;
+    margin-right: 380px;
+    background-color: #4f4f50;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  .clock {
+    font-size: 4vw; /* Font size will scale with viewport width */
+    color: #585555;
+    background-color: rgb(3, 20, 4);
+    padding: 1vw 10vw; /* Padding is relative to viewport width */
+    box-shadow: 0 4px 15px rgba(136, 11, 246, 0.3);
+    text-align: center;
+  }
+  
+  /* Additional responsive behavior */
+  @media (max-width: 768px) {
+    .clock {
+      font-size: 10vw; /* Larger font for tablets */
+      padding: 7vw 12vw; /* Adjust padding for smaller devices */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .clock {
+      font-size: 16vw; /* Even larger font for small screens */
+      padding: 10vw 15vw; /* Adjust padding accordingly */
+    }
+  }
+
